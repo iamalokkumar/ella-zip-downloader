@@ -1,0 +1,72 @@
+.zip-downloader-container {
+    width: 90%;
+    margin:0 auto;
+    padding: 20px;
+  }
+  
+  .zip-files-table {
+    width: 100%; /* Make the table take up the full width */
+    border-collapse: collapse;
+  }
+  
+  .zip-files-table th, .zip-files-table td {
+    border: 1px solid #ddd;
+    padding: 9px;
+    text-align: left;
+    padding: 4px; /* Decrease padding */
+  }
+  
+  .zip-files-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+  }
+  .zip-files-table td {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Change the font-family */
+    font-size: 16px; /* Change the font-size */
+  }
+  
+  .zip-files-table td button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .zip-files-table td button:hover {
+    background-color: #45a049;
+  }
+  
+  .zip-files-table td button:focus {
+    outline: none;
+  }
+  
+  .zip-files-table td button:active {
+    transform: translateY(1px);
+  }
+  
+  .zip-files-table td button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .logout-button {
+    color: #fff;
+  }
+  
